@@ -922,7 +922,7 @@ export default function Home() {
               Powered by{" "}
               <a href="https://www.privacyweave.in/" target="_blank" rel="noopener noreferrer"
                 className="text-white/55 hover:text-white transition-colors font-semibold">
-                PrivacyWeave
+                PrivacyWeavee
               </a>
             </p>
           </div>
