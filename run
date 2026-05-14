@@ -1,0 +1,10 @@
+cd "C:\Users\Admin\Downloads\vetriitransport-main\vetriitransport-main"
+
+# only if node/pnpm not found
+$env:Path = "C:\Program Files\nodejs;$env:APPDATA\npm;$env:Path"
+
+pnpm install
+
+$env:PORT = 5173
+$env:BASE_PATH = "/"
+pnpm --filter @workspace/construction-materials dev
